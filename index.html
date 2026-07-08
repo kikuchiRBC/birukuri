@@ -33,9 +33,6 @@
     margin:20px;
 }
 
-html,body{
-
-}
 
 
 .animated-wave-section{
@@ -237,7 +234,7 @@ img {
   }
 
 
-body {    overflow:hidden;
+body {   
   text-align: center;
   font-family: sans-serif;
   background-size: cover;
@@ -416,6 +413,47 @@ text-shadow:
     -1px  1px 0 rgb(61, 41, 153),
      1px  1px 0 rgb(61, 41, 153);
 
+}
+@media (max-width: 768px){
+
+    .container{
+        width:95%;
+        padding:10px;
+        margin:10px auto;
+    }
+
+    h1{
+        font-size:1.8rem;
+    }
+
+    #questionText{
+        font-size:22px;
+        line-height:1.8;
+    }
+
+    button{
+        width:90%;
+        max-width:300px;
+        font-size:18px;
+    }
+
+    #scoreBoard{
+        position:static;
+        margin:10px auto;
+        width:fit-content;
+    }
+
+    img,
+    #toolImage{
+        width:100%;
+        max-width:250px;
+        height:auto;
+    }
+
+    #quiz{
+        width:95%;
+        padding:15px;
+    }
 }
 </style>
 
